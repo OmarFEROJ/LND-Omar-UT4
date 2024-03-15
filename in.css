@@ -50,3 +50,20 @@
   border-color: black;
 }
 /*Paso 3*/
+
+.carousel-inner{
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+.col-md-8 {
+  color: black;
+}
+.footer-transparent {
+  color: black;
+}
+body {
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}  
