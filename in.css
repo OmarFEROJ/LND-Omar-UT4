@@ -61,9 +61,21 @@
   color: black;
 }
 body {
-  background-image: url(fondo.jpg);
+  background-color: #f9f9f9; /* Color de fondo */
+  color: #333333; /* Color del texto principal */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: black;
+
 }  
+.btn-primary {
+  background-color: #007bff; /* Color del botón */
+  border-color: #007bff; /* Color del borde del botón */
+}
+.btn-primary:hover {
+  background-color: #0056b3; /* Color del botón al pasar el mouse */
+  border-color: #0056b3; /* Color del borde del botón al pasar el mouse */
+}
+.list-unstyled a {
+  color: #4caf50; /* Color de enlaces en el footer */
+}
